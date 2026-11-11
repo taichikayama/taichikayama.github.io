@@ -15,6 +15,13 @@
     .about{margin:0 0 14px;line-height:1.6}
     .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 16px}
     .chip{font-size:13px;color:var(--muted);border:1px solid var(--bd);border-radius:999px;padding:6px 10px;background:rgba(0,0,0,.15)}
+    .experience{margin-top:24px}
+    .experience h2{margin:0 0 12px;font-size:20px}
+    .experience-list{list-style:none;padding:0;margin:0}
+    .experience-item{padding:14px 0;border-top:1px solid var(--bd)}
+    .experience-item h3{margin:0;font-size:16px}
+    .company{color:var(--muted)}
+    .period{margin:4px 0 0;color:var(--muted);font-size:14px}
     .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
     a.btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid var(--bd);background:var(--btn);color:var(--fg);text-decoration:none}
     a.btn:hover{filter:brightness(1.12)}
@@ -25,7 +32,7 @@
   <div class="wrap">
     <main class="card">
       <h1>Taichi Kayama</h1>
-      <p class="role">Solution Engineer (Pre-Sales) / Application Development &amp; Integration</p>
+      <p class="role">Sr. Solution Architect at OutSystems</p>
 
       <p class="about">
         アプリケーション開発・システム統合領域で10年以上、エンジニアリングとアカウント/プロジェクト推進の両面から
@@ -33,11 +40,27 @@
       </p>
 
       <div class="chips">
-        <span class="chip">Microsoft（2018–）</span>
+        <span class="chip">OutSystems（2026）</span>
         <span class="chip">Tokyo, Japan</span>
         <span class="chip">Rikkyo Univ. (Economics)</span>
         <span class="chip">Oracle OpenWorld 2017 Award</span>
       </div>
+
+      <section class="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">職務経歴</h2>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <h3>Sr. Solution Architect</h3>
+            <span class="company">OutSystems</span>
+            <p class="period">2026年3月–2026年11月</p>
+          </li>
+          <li class="experience-item">
+            <h3>Solution Engineer</h3>
+            <span class="company">Microsoft</span>
+            <p class="period">2018年11月–2026年3月</p>
+          </li>
+        </ol>
+      </section>
 
       <div class="row">
         <a class="btn" href="https://www.linkedin.com/in/taichi-kayama/" target="_blank" rel="noreferrer">LinkedIn</a>
